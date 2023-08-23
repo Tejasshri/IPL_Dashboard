@@ -1,0 +1,38 @@
+.team-link {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  margin: 10px;
+}
+
+.team-card {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  flex-grow: 1;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  .team-link {
+    width: 330px;
+  }
+  .team-card {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+.team-card-image {
+  height: 100px;
+}
+
+.team-card-heading {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+}

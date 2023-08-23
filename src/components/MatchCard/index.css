@@ -1,0 +1,33 @@
+.recent-match-card {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  font-family: bree serif;
+}
+
+@media (min-width: 768px) {
+  .recent-match-card {
+    width: 350px;
+  }
+}
+
+.recent-match-card-image {
+  border: 50%;
+  height: 100px;
+}
+
+.competing-team-heading {
+  text-align: center;
+  font-size: 25px;
+}
+
+.match-status-heading {
+  color: greenyellow;
+  font-family: bree serif;
+}
